@@ -1,4 +1,5 @@
 import styles from "./SobreMim.module.css";
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 import PostModelo from "componentes/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
@@ -11,34 +12,49 @@ export default function SobreMim() {
             titulo="Sobre mim"
         >
             <h3 className={styles.subtitulo}>
-                Olá, eu sou o Antônio!
+                Olá, eu sou o Bruno!
             </h3>
 
             <img
                 src={fotoSobreMim}
-                alt="Foto do Antônio Evaldo sorrindo"
+                alt="Foto do Bruno Nakamura"
                 className={styles.fotoSobreMim}
             />
 
             <p className={styles.paragrafo}>
-                Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.
+                Oi, tudo bem? sou Desenvolvedor Front-end e estou feliz de te ver por aqui.
             </p>
             <p className={styles.paragrafo}>
-                Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.
+                Minha história com programação começou no YouTube, assistindo os videos do Curso em video. Eu aprendi lógica de programação e o básico do desenvolvimento web utilizando HTML5 CSS3 e JavaScript. Eu gosto muito de estudar programação, e estou a todo vapor!!
             </p>
             <p className={styles.paragrafo}>
-                No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles.
+                Apos concluir os cursos do professor Gustavo Guanabara senti que precisa de mais, e entao fui em busca de novos cruso que fossem relacionado ao Front-end.
             </p>
             <p className={styles.paragrafo}>
-                Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.
+                Ingressei em um curso Full-stack do professor Luiz Otávio. Nele aprofundei meus conhecimentos, pricipalmente em JavaScript e prendi a usar diversas ferramentas como o Node JS, React Js e TypeScript.
             </p>
             <p className={styles.paragrafo}>
-                E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.
+                Logo em seguida por indicação de amigos conheci o programa Oracle Next Education (ONE). Esse programa ofece diversos cursos pela Alura, que de longe tem sido a melhor e mais completa plataforma de ensino que conheci até o momento, inclusive este site é um projeto que foi passado durante as aulas de React.
 
             </p>
             <p className={styles.paragrafo}>
-                Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
+                Alem dos cursos de conhecimentos tecnicos aprendi muito sobre Soft-skill que era algo que eu realmente tinha muita dificuldade e não fazia ideia que poderia me desenvolver tanto. Com todo esse conhecimento sinto que estou cada vez mais apto a ingressar no mundo dos Desenvolvedores!! 
             </p>
+            <p className={styles.paragrafo}>
+                Muito obriado por visitar esse meu espaço que escrevi com muito carinho!! 
+            </p>
+            <p className={styles.paragrafo}>
+                Espero que tenham gostado!!
+            </p>
+
+            <ul className={styles.social}>
+                <li>
+                    <a href="https://github.com/nakawakawaka/"><AiFillGithub size={60} /></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/bruno-naoki-nakamura/"><AiFillLinkedin size={60} color="#0077b5" /></a>
+                </li>
+            </ul>
         </PostModelo>
     )
 }
